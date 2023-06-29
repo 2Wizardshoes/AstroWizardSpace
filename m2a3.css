@@ -1,0 +1,60 @@
+﻿/*Jason McDowell
+    CWB1010
+    06/25/2023
+*/
+
+body {
+    background-color: darkblue;
+}
+
+#wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+    width: 100px;
+}
+
+main {
+    margin-left: 220px;
+}
+
+main, header, footer {
+    background-color: azure;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 10px;
+    border: double;
+}
+
+h1 {
+    border-top: thin solid #b200ff;
+    border-bottom: thin solid #b200ff;
+    border-left: thin solid #b200ff;
+    border-right: thin solid #b200ff;
+    position: relative;
+    z-index: 1;
+}
+
+a {
+    position: relative;
+    z-index: 0;
+}
+img {
+    padding: 3em;
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
