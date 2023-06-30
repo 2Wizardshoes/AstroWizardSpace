@@ -38,6 +38,7 @@ header ul li {
 }
 
 h1 {
+    text-align: center;
     border-top: thin solid #b200ff;
     border-bottom: thin solid #b200ff;
     border-left: thin solid #b200ff;
