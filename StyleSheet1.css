@@ -1,0 +1,99 @@
+﻿body {
+    border-color:black;
+    color:black;
+    background-color: lavender;
+    margin:0;
+    padding:0;
+    min-width: 525px;
+}
+img {
+    background-color:white;
+    position: left;
+    padding: 3em;
+    display: block;
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 500px;
+    width: 1000px;
+    
+}
+    #header {
+    float: left;
+    width: 100%;
+    background-color:aliceblue;
+}
+    h1{
+        text-align: center;
+        color:darkslategrey;
+    }
+    h2{
+    text-align: center;
+    color: darkslategrey;
+    background-color:lavender;
+}
+#footer {
+    float: left;
+    width: 100%;
+    background-color:silver;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+#wrapper {
+    float: left;
+    padding-left: 200px;
+    padding-right: 125px;
+    overflow: hidden;
+}
+#left_side {
+    position: relative;
+    float: left;
+    width: 200px;
+    background-color:cornflowerblue;
+    right: 200px;
+    margin-left: -100%;
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
+}
+#right_side {
+    position: relative;
+    float: left;
+    width: 125px;
+    background-color: goldenrod;
+    margin-right: -125%;
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
+}
+#content_area {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: lavender;
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
+}
+#left_side ul{
+    list-style: none;
+    margin: 12px 0px 0px 12px;
+    padding: 0px;
+}
+left_side li a:link, #nav li a:visited {
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 3px 0px 3px 3px;
+    color: blueviolet;
+    text-decoration: none;
+    display: block;
+}
+left_side li a:hover, #nav li a:active {
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 3px 0px 3px 3px;
+    color: crimson;
+    text-decoration: none;
+    display: block;
+}
+
+
+
