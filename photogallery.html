@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=550, initial-scale=1">
+
+    <link rel="stylesheet" href="m2a3.css">
+    <link rel="stylesheet" href="jquery.flipster.css">
+    <link rel="stylesheet" href="../src/css/jquery.flipster.nav.css">
+</head>
+<body>
+    <img class="demo" src=astrowizardspacelogo2.png alt="logo" height="200" width="300">
+    <h1>Welcome To AstroWizardSpace</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="supernove.html">SuperNova News</a></li>
+            <li><a href="upcomingevents.html">Upcoming Events</a></li>
+            <li><a href="gravitywaves.html"> Gravity Waves </a></li>
+            <li><a href="form.html"> Membership sign-up  </a></li>
+            <li><a href="contactus.html"> Contact Us  </a></li>
+        </ul>
+    </nav>
+    <header id="Main-Header">
+        <h1></h1>
+    </header>
+    <div id="Main-Content">
+        <div class="Container">
+            <div class="flipster">
+                <ul>
+                    <li>
+                        <img src="deepfield.jpg"> 
+                    </li>
+                    <li>
+                        <img src="sombrero.jpg">
+                    </li>
+                    <li>
+                        <img src="pillars.jpg">
+                    </li>
+                    <li>
+                        <img src="supernova.jpg">
+                    </li>
+                    <li>
+                        <img src="galaxycollision.jpg">
+                    </li>
+                    <li>
+                        <img src="eyenebula.jpg">
+                    </li>
+                    <li>
+                        <img src="blackholes.jpg">
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.flipster.js"></script>
+    <script>
+<!--
+
+        $(function () { $(".flipster").flipster(); });
+
+        -->
+    </script>
+    <footer>
+        <p>
+            <small>&copy; <span id="js-year"></span> Jason McDowell All rights reserved. wizardinc.jm@gmail.com Last updated: 8/3/2023</small>
+        </p>
+    </footer>
+    <script>
+                const d = new Date();
+            document.getElementById("js-year").innerHTML = d.getFullYear();
+    </script>
+</body>
+</html>
